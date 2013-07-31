@@ -44,14 +44,14 @@ public class NetworkActivity extends Activity
         		sendBroadcast(poke);
         	}
         	
-        	if(!provider.contains("network"))
-        	{
-        		startActivityForResult(new Intent(android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS), 0);
-        	}
-        	else if(provider.contains("network"))
-        	{
-        		startTrackingService();
-        	}
+//        	if(!provider.contains("network"))
+//        	{
+//        		startActivityForResult(new Intent(android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS), 0);
+//        	}
+//        	else if(provider.contains("network"))
+//        	{
+        	startTrackingService();
+//        	}
 		} catch (Exception e) 
 		{
 			e.printStackTrace();
