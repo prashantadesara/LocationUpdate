@@ -12,6 +12,11 @@ import android.provider.Settings;
 import android.widget.TextView;
 import android.widget.Toast;
 
+/**
+ * Start service from this activity and display current lat/lng.
+ * @author Prashant Adesara 
+ **/
+
 @SuppressLint("HandlerLeak")
 public class NetworkActivity extends Activity 
 {

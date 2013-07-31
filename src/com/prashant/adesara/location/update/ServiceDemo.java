@@ -14,6 +14,11 @@ import com.google.android.gms.location.LocationClient;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationRequest;
 
+/**
+ * Start service from here with LocationListener
+ * @author Prashant Adesara 
+ **/
+ 
 public class ServiceDemo extends Service implements LocationListener, GooglePlayServicesClient.ConnectionCallbacks,
 GooglePlayServicesClient.OnConnectionFailedListener {
 	
