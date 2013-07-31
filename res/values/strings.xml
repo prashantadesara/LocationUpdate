@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application identifiers -->
+    <string name="app_name">Location Updates - Prashant Adesara</string>
+    <string name="app_tag">LocationUpdates</string>
+    <string name="app_description">
+        Displays current or updated location using Location Services
+    </string>
+
+    <!-- Labels -->
+    <string name="latlng">Lat/Long:</string>
+</resources>
