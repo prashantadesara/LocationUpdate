@@ -2,23 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <TextView
-        android:id="@+id/label_lat_lng"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:text="@string/latlng"
-        android:textSize="20sp" />
+    android:layout_height="match_parent" >
 
     <TextView
         android:id="@+id/lat_lng"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/label_lat_lng"
-        android:layout_marginLeft="10dp"
-        android:layout_toRightOf="@+id/label_lat_lng"
+        android:layout_centerInParent="true"
+        android:text="@string/latlng"
         android:textSize="20sp" />
+
 </RelativeLayout>

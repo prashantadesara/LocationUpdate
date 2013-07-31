@@ -183,8 +183,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int hybrid=0x7f060004;
-        public static final int label_lat_lng=0x7f060006;
-        public static final int lat_lng=0x7f060007;
+        public static final int lat_lng=0x7f060006;
         public static final int main_layout=0x7f060005;
         public static final int none=0x7f060000;
         public static final int normal=0x7f060001;

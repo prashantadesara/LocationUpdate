@@ -109,7 +109,7 @@ GooglePlayServicesClient.OnConnectionFailedListener {
 				lgid = lng;
 				if(NetworkActivity.networkActivity!=null)
 				{
-					NetworkActivity.networkActivity.setLatLng("" + lat + ", " + lng + " > "+ new Date());
+					NetworkActivity.networkActivity.setLatLng("Current Lat/Lng:: " + lat + ", " + lng+"\n"+new Date());
 				}
 			}
 		}
